@@ -69,6 +69,12 @@ feature     ('plugin_conf',
   'Storable'                                      => 0,
 );
 
+# shinken features plugin
+feature     ('plugin_shinken',
+  -default                                        => 1,
+  'MongoDB'                                       => 0,
+);
+
 # dashboard plugin
 feature     ('plugin_dashboard',
   -default                                        => 0,
